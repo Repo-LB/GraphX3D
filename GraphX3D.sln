@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GraphX3D", "GraphX3D\GraphX3D.vbproj", "{F3736A4C-8E13-439D-B0DC-FCD1BD853010}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3736A4C-8E13-439D-B0DC-FCD1BD853010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3736A4C-8E13-439D-B0DC-FCD1BD853010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3736A4C-8E13-439D-B0DC-FCD1BD853010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3736A4C-8E13-439D-B0DC-FCD1BD853010}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EBB4458-5741-4C72-8C50-3E12A16E53B4}
+	EndGlobalSection
+EndGlobal
