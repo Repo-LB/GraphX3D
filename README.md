@@ -14,8 +14,8 @@ Upcomming Critical Updates:
 
 Upcomming Secondary Updates:
 
-1)Rework on Rasterizer + Performance 
-2)Rework the code structure and naming, child-proof all public functions
-3)Improve Mesh Object importation routine(wider range of filetypes)
-4)Texturing
+1)Rework on Rasterizer + Performance  
+2)Rework the code structure and naming, child-proof all public functions  
+3)Improve Mesh Object importation routine(wider range of filetypes)  
+4)Texturing  
 
