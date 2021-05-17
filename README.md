@@ -13,7 +13,7 @@ Upcomming Critical Updates:
 
 Upcomming Secondary Updates:
 
-1)Rework on Rasterizer + Performance  
+1)Rework on Rasterizer + Poor Clipping Performance  
 2)Rework the code structure and naming, child-proof all public functions  
 3)Improve Mesh Object importation routine(wider range of filetypes)  
 4)Texturing  
@@ -28,7 +28,7 @@ FPCamera (Basic First Person Camera)
 Rasterizer (Handles Sorting, Clipping, Drawing)  
 
 To see the results download the "Pre_Release" folder and run the .exe file (Windows may popup a warning, the project is not signed)  
-I didn't plan for an early release, came up with this demo project in a day for demonstration purpose. The controls are quite whacky and need to be worked on but should still allow observation of the progress.  
+I didn't plan for an early release, came up with this demo project in a day for demonstration purpose. The controls are quite whacky and need to be worked on but should still allow observation of the progress. The clipping process can and should also be highly optimized.
 
 Forward: W  
 Backward: S  
