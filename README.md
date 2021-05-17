@@ -20,10 +20,10 @@ Upcomming Secondary Updates:
 
 The 6 main classes can be found in the GraphX3D folder:
 
-PVector (3D Points & Vectors + Operations)
-MeshObject.TriFace (Faces of 3D objects)
-MeshObject (Mesh From Triangles - Can be imported from simple .obj files)
-Matrices (Easy Matrix Creation)
-FPCamera (Basic First Person Camera)
-Rasterizer (Handles Sorting, Clipping, Drawing)
+PVector (3D Points & Vectors + Operations)  
+MeshObject.TriFace (Faces of 3D objects)  
+MeshObject (Mesh From Triangles - Can be imported from simple .obj files)  
+Matrices (Easy Matrix Creation)  
+FPCamera (Basic First Person Camera)  
+Rasterizer (Handles Sorting, Clipping, Drawing)  
 
