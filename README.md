@@ -10,10 +10,11 @@ Upcoming Critical Updates :
 
 1)Depth Buffer (Fix Occlusion)  
 2)Interpolation for Shader (Per-pixel Lighting Instead of Per-Triangle)  
+3)Fix Poor Clipping Performance (fps drop when close to objects)
 
 Upcoming Secondary Updates :
 
-1)Rework on Rasterizer + Fix Poor Clipping Performance  
+1)Rework on Rasterizer 
 2)Rework the code structure and naming, child-proof all public functions  
 3)Improve Mesh Object importation routine (wider range of file types)  
 4)Texturing  
