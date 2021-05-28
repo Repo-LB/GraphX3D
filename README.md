@@ -14,7 +14,7 @@ Upcoming Critical Updates :
 
 Upcoming Secondary Updates :
 
-1)Rework on Rasterizer 
+1)Rework on Rasterizer  
 2)Rework the code structure and naming, child-proof all public functions  
 3)Improve Mesh Object importation routine (wider range of file types)  
 4)Texturing  
