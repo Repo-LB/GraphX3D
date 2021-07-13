@@ -8,16 +8,15 @@ IMPORTANT NOTICE -> This is still a work in progress. I usually prefer releasing
 
 Upcoming Critical Updates : 
 
-1)Depth Buffer (Fix Occlusion)  
-2)Interpolation for Shader (Per-pixel Lighting Instead of Per-Triangle)  
-3)Fix Poor Clipping Performance (fps drop when close to objects)
+1)Fix Performance Issue Caused by "SetPixel" Function (Modify Bitmap Bytes Directly Instead)  
+2)Depth Buffer (Fix Occlusion)  
+3)Interpolation for Shader (Per-pixel Lighting Instead of Per-Triangle)  
 
 Upcoming Secondary Updates :
 
-1)Rework on Rasterizer  
-2)Rework the code structure and naming, child-proof all public functions  
-3)Improve Mesh Object importation routine (wider range of file types)  
-4)Texturing  
+1)Rework the code structure and naming, child-proof all public functions  
+2)Improve Mesh Object importation routine (wider range of file types)  
+3)Texturing  
 
 The 6 main classes can be found in the GraphX3D folder :
 
@@ -29,7 +28,7 @@ FPCamera (Basic First Person Camera)
 Rasterizer (Handles Sorting, Clipping, Drawing)  
 
 To see the results download the "Pre_Release" folder and run the .exe file (Windows may pop up a warning; the project is not signed)
-I didn't plan for an early release, came up with this demo project in a day for demonstration purpose. The controls are quite whacky and need to be worked on but should still allow observation of the progress. The clipping process (performance slowdown when near a Mesh) also can and should be highly optimized (I can avoid creating new variables at the clipping stage).
+I didn't plan for an early release, came up with this demo project in a day for demonstration purpose. The controls are quite whacky and need to be worked on but should still allow observation of the progress. Heavy performance (speed) issues currently come from the only external function call I'm using to draw on bitmaps, should run decently in the next update. 
 
 Forward : W  
 Backward:  S  
